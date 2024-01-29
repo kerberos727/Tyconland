@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397EFD51398A58D97577E45D /* Pods_estatemap_estatemapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2695AECB8852859F16402404 /* Pods_estatemap_estatemapUITests.framework */; };
+		CE4131B92AC58D6000A964EE /* estatemapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131B82AC58D6000A964EE /* estatemapApp.swift */; };
+		CE4131BB2AC58D6000A964EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131BA2AC58D6000A964EE /* ContentView.swift */; };
+		CE4131BD2AC58D6100A964EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4131BC2AC58D6100A964EE /* Assets.xcassets */; };
+		CE4131C02AC58D6100A964EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4131BF2AC58D6100A964EE /* Preview Assets.xcassets */; };
+		CE4131CA2AC58D6100A964EE /* estatemapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131C92AC58D6100A964EE /* estatemapTests.swift */; };
+		CE4131D42AC58D6100A964EE /* estatemapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131D32AC58D6100A964EE /* estatemapUITests.swift */; };
+		CE4131D62AC58D6100A964EE /* estatemapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131D52AC58D6100A964EE /* estatemapUITestsLaunchTests.swift */; };
+		CE4131E42AC58DBA00A964EE /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131E32AC58DBA00A964EE /* Login.swift */; };
+		CE4131E62AC596FC00A964EE /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131E52AC596FC00A964EE /* Register.swift */; };
+		CE4131E92AC5AE7E00A964EE /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4131E82AC5AE7E00A964EE /* Main.swift */; };
+		CE87FDFD2AC6B36C002C7262 /* auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87FDFC2AC6B36C002C7262 /* auth.swift */; };
+		DEEFAAAED60069816056D900 /* Pods_estatemap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107E7D4E91BAC92391B26499 /* Pods_estatemap.framework */; };
+		E763EF7D1EB09D917A3A29EC /* Pods_estatemapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22152AB82AFC02AF61E2BCB /* Pods_estatemapTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4131C62AC58D6100A964EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4131AD2AC58D6000A964EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4131B42AC58D6000A964EE;
+			remoteInfo = estatemap;
+		};
+		CE4131D02AC58D6100A964EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4131AD2AC58D6000A964EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4131B42AC58D6000A964EE;
+			remoteInfo = estatemap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107E7D4E91BAC92391B26499 /* Pods_estatemap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_estatemap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F58DBFF86CB252040CBE29 /* Pods-estatemap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estatemap.release.xcconfig"; path = "Target Support Files/Pods-estatemap/Pods-estatemap.release.xcconfig"; sourceTree = "<group>"; };
+		2695AECB8852859F16402404 /* Pods_estatemap_estatemapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_estatemap_estatemapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA28056A3949B0B8D8FDA49 /* Pods-estatemap-estatemapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estatemap-estatemapUITests.release.xcconfig"; path = "Target Support Files/Pods-estatemap-estatemapUITests/Pods-estatemap-estatemapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C1148A80CD0EC083A8DBE98 /* Pods-estatemap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estatemap.debug.xcconfig"; path = "Target Support Files/Pods-estatemap/Pods-estatemap.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F589BF3254FD3ED904ED09 /* Pods-estatemapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estatemapTests.debug.xcconfig"; path = "Target Support Files/Pods-estatemapTests/Pods-estatemapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B22152AB82AFC02AF61E2BCB /* Pods_estatemapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_estatemapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B242FB9208C7FB92EA39122D /* Pods-estatemap-estatemapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estatemap-estatemapUITests.debug.xcconfig"; path = "Target Support Files/Pods-estatemap-estatemapUITests/Pods-estatemap-estatemapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4131B52AC58D6000A964EE /* estatemap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = estatemap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4131B82AC58D6000A964EE /* estatemapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estatemapApp.swift; sourceTree = "<group>"; };
+		CE4131BA2AC58D6000A964EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE4131BC2AC58D6100A964EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4131BF2AC58D6100A964EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE4131C52AC58D6100A964EE /* estatemapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = estatemapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4131C92AC58D6100A964EE /* estatemapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estatemapTests.swift; sourceTree = "<group>"; };
+		CE4131CF2AC58D6100A964EE /* estatemapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = estatemapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4131D32AC58D6100A964EE /* estatemapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estatemapUITests.swift; sourceTree = "<group>"; };
+		CE4131D52AC58D6100A964EE /* estatemapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estatemapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE4131E32AC58DBA00A964EE /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CE4131E52AC596FC00A964EE /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		CE4131E82AC5AE7E00A964EE /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		CE87FDFC2AC6B36C002C7262 /* auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auth.swift; sourceTree = "<group>"; };
+		D12F304B5DC6C7ADF6CB8AC7 /* Pods-estatemapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-estatemapTests.release.xcconfig"; path = "Target Support Files/Pods-estatemapTests/Pods-estatemapTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4131B22AC58D6000A964EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEFAAAED60069816056D900 /* Pods_estatemap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4131C22AC58D6100A964EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E763EF7D1EB09D917A3A29EC /* Pods_estatemapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4131CC2AC58D6100A964EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397EFD51398A58D97577E45D /* Pods_estatemap_estatemapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6704A01644132532B1E7DC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				107E7D4E91BAC92391B26499 /* Pods_estatemap.framework */,
+				2695AECB8852859F16402404 /* Pods_estatemap_estatemapUITests.framework */,
+				B22152AB82AFC02AF61E2BCB /* Pods_estatemapTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE4131AC2AC58D6000A964EE = {
+			isa = PBXGroup;
+			children = (
+				CE4131B72AC58D6000A964EE /* estatemap */,
+				CE4131C82AC58D6100A964EE /* estatemapTests */,
+				CE4131D22AC58D6100A964EE /* estatemapUITests */,
+				CE4131B62AC58D6000A964EE /* Products */,
+				F73C18093EF6F0F950348C1B /* Pods */,
+				6704A01644132532B1E7DC64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4131B62AC58D6000A964EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4131B52AC58D6000A964EE /* estatemap.app */,
+				CE4131C52AC58D6100A964EE /* estatemapTests.xctest */,
+				CE4131CF2AC58D6100A964EE /* estatemapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4131B72AC58D6000A964EE /* estatemap */ = {
+			isa = PBXGroup;
+			children = (
+				CE87FDFB2AC6B350002C7262 /* API */,
+				CE4131E72AC5AE6200A964EE /* Map */,
+				CE4131E22AC58D9600A964EE /* Auth */,
+				CE4131B82AC58D6000A964EE /* estatemapApp.swift */,
+				CE4131BA2AC58D6000A964EE /* ContentView.swift */,
+				CE4131BC2AC58D6100A964EE /* Assets.xcassets */,
+				CE4131BE2AC58D6100A964EE /* Preview Content */,
+			);
+			path = estatemap;
+			sourceTree = "<group>";
+		};
+		CE4131BE2AC58D6100A964EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE4131BF2AC58D6100A964EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE4131C82AC58D6100A964EE /* estatemapTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4131C92AC58D6100A964EE /* estatemapTests.swift */,
+			);
+			path = estatemapTests;
+			sourceTree = "<group>";
+		};
+		CE4131D22AC58D6100A964EE /* estatemapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4131D32AC58D6100A964EE /* estatemapUITests.swift */,
+				CE4131D52AC58D6100A964EE /* estatemapUITestsLaunchTests.swift */,
+			);
+			path = estatemapUITests;
+			sourceTree = "<group>";
+		};
+		CE4131E22AC58D9600A964EE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CE4131E32AC58DBA00A964EE /* Login.swift */,
+				CE4131E52AC596FC00A964EE /* Register.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CE4131E72AC5AE6200A964EE /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				CE4131E82AC5AE7E00A964EE /* Main.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		CE87FDFB2AC6B350002C7262 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CE87FDFC2AC6B36C002C7262 /* auth.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F73C18093EF6F0F950348C1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C1148A80CD0EC083A8DBE98 /* Pods-estatemap.debug.xcconfig */,
+				14F58DBFF86CB252040CBE29 /* Pods-estatemap.release.xcconfig */,
+				B242FB9208C7FB92EA39122D /* Pods-estatemap-estatemapUITests.debug.xcconfig */,
+				6CA28056A3949B0B8D8FDA49 /* Pods-estatemap-estatemapUITests.release.xcconfig */,
+				A5F589BF3254FD3ED904ED09 /* Pods-estatemapTests.debug.xcconfig */,
+				D12F304B5DC6C7ADF6CB8AC7 /* Pods-estatemapTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4131B42AC58D6000A964EE /* estatemap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4131D92AC58D6100A964EE /* Build configuration list for PBXNativeTarget "estatemap" */;
+			buildPhases = (
+				C8D864C7118D4AFA933FD34C /* [CP] Check Pods Manifest.lock */,
+				CE4131B12AC58D6000A964EE /* Sources */,
+				CE4131B22AC58D6000A964EE /* Frameworks */,
+				CE4131B32AC58D6000A964EE /* Resources */,
+				C6D4426EC2A1AC0064D69842 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = estatemap;
+			productName = estatemap;
+			productReference = CE4131B52AC58D6000A964EE /* estatemap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4131C42AC58D6100A964EE /* estatemapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4131DC2AC58D6100A964EE /* Build configuration list for PBXNativeTarget "estatemapTests" */;
+			buildPhases = (
+				6BE75A4827E777BAA9166484 /* [CP] Check Pods Manifest.lock */,
+				CE4131C12AC58D6100A964EE /* Sources */,
+				CE4131C22AC58D6100A964EE /* Frameworks */,
+				CE4131C32AC58D6100A964EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4131C72AC58D6100A964EE /* PBXTargetDependency */,
+			);
+			name = estatemapTests;
+			productName = estatemapTests;
+			productReference = CE4131C52AC58D6100A964EE /* estatemapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE4131CE2AC58D6100A964EE /* estatemapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4131DF2AC58D6100A964EE /* Build configuration list for PBXNativeTarget "estatemapUITests" */;
+			buildPhases = (
+				B637C8A31A7F0C0683C8D16B /* [CP] Check Pods Manifest.lock */,
+				CE4131CB2AC58D6100A964EE /* Sources */,
+				CE4131CC2AC58D6100A964EE /* Frameworks */,
+				CE4131CD2AC58D6100A964EE /* Resources */,
+				AD78E5C6A3F0C566D859772D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4131D12AC58D6100A964EE /* PBXTargetDependency */,
+			);
+			name = estatemapUITests;
+			productName = estatemapUITests;
+			productReference = CE4131CF2AC58D6100A964EE /* estatemapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4131AD2AC58D6000A964EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE4131B42AC58D6000A964EE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CE4131C42AC58D6100A964EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE4131B42AC58D6000A964EE;
+					};
+					CE4131CE2AC58D6100A964EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CE4131B42AC58D6000A964EE;
+					};
+				};
+			};
+			buildConfigurationList = CE4131B02AC58D6000A964EE /* Build configuration list for PBXProject "estatemap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4131AC2AC58D6000A964EE;
+			productRefGroup = CE4131B62AC58D6000A964EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4131B42AC58D6000A964EE /* estatemap */,
+				CE4131C42AC58D6100A964EE /* estatemapTests */,
+				CE4131CE2AC58D6100A964EE /* estatemapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4131B32AC58D6000A964EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4131C02AC58D6100A964EE /* Preview Assets.xcassets in Resources */,
+				CE4131BD2AC58D6100A964EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4131C32AC58D6100A964EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4131CD2AC58D6100A964EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BE75A4827E777BAA9166484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-estatemapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD78E5C6A3F0C566D859772D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estatemap-estatemapUITests/Pods-estatemap-estatemapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estatemap-estatemapUITests/Pods-estatemap-estatemapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-estatemap-estatemapUITests/Pods-estatemap-estatemapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B637C8A31A7F0C0683C8D16B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-estatemap-estatemapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6D4426EC2A1AC0064D69842 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estatemap/Pods-estatemap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-estatemap/Pods-estatemap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-estatemap/Pods-estatemap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D864C7118D4AFA933FD34C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-estatemap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4131B12AC58D6000A964EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4131E92AC5AE7E00A964EE /* Main.swift in Sources */,
+				CE87FDFD2AC6B36C002C7262 /* auth.swift in Sources */,
+				CE4131E42AC58DBA00A964EE /* Login.swift in Sources */,
+				CE4131BB2AC58D6000A964EE /* ContentView.swift in Sources */,
+				CE4131E62AC596FC00A964EE /* Register.swift in Sources */,
+				CE4131B92AC58D6000A964EE /* estatemapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4131C12AC58D6100A964EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4131CA2AC58D6100A964EE /* estatemapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4131CB2AC58D6100A964EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4131D42AC58D6100A964EE /* estatemapUITests.swift in Sources */,
+				CE4131D62AC58D6100A964EE /* estatemapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE4131C72AC58D6100A964EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4131B42AC58D6000A964EE /* estatemap */;
+			targetProxy = CE4131C62AC58D6100A964EE /* PBXContainerItemProxy */;
+		};
+		CE4131D12AC58D6100A964EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4131B42AC58D6000A964EE /* estatemap */;
+			targetProxy = CE4131D02AC58D6100A964EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE4131D72AC58D6100A964EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE4131D82AC58D6100A964EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4131DA2AC58D6100A964EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1148A80CD0EC083A8DBE98 /* Pods-estatemap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"estatemap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comptest.estatemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE4131DB2AC58D6100A964EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F58DBFF86CB252040CBE29 /* Pods-estatemap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"estatemap/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comptest.estatemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE4131DD2AC58D6100A964EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F589BF3254FD3ED904ED09 /* Pods-estatemapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comptest.estatemapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/estatemap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/estatemap";
+			};
+			name = Debug;
+		};
+		CE4131DE2AC58D6100A964EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12F304B5DC6C7ADF6CB8AC7 /* Pods-estatemapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comptest.estatemapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/estatemap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/estatemap";
+			};
+			name = Release;
+		};
+		CE4131E02AC58D6100A964EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B242FB9208C7FB92EA39122D /* Pods-estatemap-estatemapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comptest.estatemapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = estatemap;
+			};
+			name = Debug;
+		};
+		CE4131E12AC58D6100A964EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA28056A3949B0B8D8FDA49 /* Pods-estatemap-estatemapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comptest.estatemapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = estatemap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4131B02AC58D6000A964EE /* Build configuration list for PBXProject "estatemap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4131D72AC58D6100A964EE /* Debug */,
+				CE4131D82AC58D6100A964EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4131D92AC58D6100A964EE /* Build configuration list for PBXNativeTarget "estatemap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4131DA2AC58D6100A964EE /* Debug */,
+				CE4131DB2AC58D6100A964EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4131DC2AC58D6100A964EE /* Build configuration list for PBXNativeTarget "estatemapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4131DD2AC58D6100A964EE /* Debug */,
+				CE4131DE2AC58D6100A964EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4131DF2AC58D6100A964EE /* Build configuration list for PBXNativeTarget "estatemapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4131E02AC58D6100A964EE /* Debug */,
+				CE4131E12AC58D6100A964EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4131AD2AC58D6000A964EE /* Project object */;
+}
